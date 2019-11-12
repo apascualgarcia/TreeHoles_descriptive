@@ -1,0 +1,11 @@
+CPM7~mgCO2.7+mG7+mX7
+mgCO2.7~ATP7+mG7+mP7+mX7
+ATP7~mN7+mP7+mG7
+Composition=~Id.f1+Id.f2+Id.f3+Id.f4+Id.f5+Id.f6
+mG7 ~ Composition
+mN7 ~ Composition
+mP7 ~ Composition
+mX7 ~ Composition
+
+
+

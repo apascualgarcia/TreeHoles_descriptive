@@ -1,0 +1,26 @@
+
+# Saturated model including remainder species, a latent variable and metacommunity, fitting ATP
+             # regressions 
+
+             ATP7 ~ EnvLat
+             
+             # Latent variable, affected by the taxa and back through the metacomm
+             
+             EnvLat =~ Clus4+Clus8+Clus12+Clus14+Clus16+Clus29+Clus35+Clus65+Clus103+Remainder
+
+             # variances and covariances 
+
+             Clus4 ~~ Clus8+Clus12+Clus14+Clus16+Clus29+Clus35+Clus65+Clus103+Remainder
+             Clus8 ~~ Clus12+Clus14+Clus16+Clus29+Clus35+Clus65+Clus103+Remainder
+             Clus12 ~~ Clus14+Clus16+Clus29+Clus35+Clus65+Clus103+Remainder
+             Clus14 ~~ Clus16+Clus29+Clus35+Clus65+Clus103+Remainder
+             Clus16 ~~ Clus29+Clus35+Clus65+Clus103+Remainder
+             Clus29 ~~ Clus35+Clus65+Clus103+Remainder
+             Clus35 ~~ Clus65+Clus103+Remainder
+             Clus65 ~~ Clus103+Remainder
+             Clus103 ~~ Remainder
+ 
+
+
+             
+

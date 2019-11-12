@@ -1,0 +1,10 @@
+Energy =~ ATP7
+Respiration =~ mgCO2.7
+Yield =~ CPM7
+Yield ~ Respiration+Energy
+
+
+
+
+
+

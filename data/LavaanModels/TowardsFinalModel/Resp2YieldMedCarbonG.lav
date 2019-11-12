@@ -1,0 +1,12 @@
+CarbonG =~ mG7
+Respiration =~ mgCO2.7
+Yield =~ CPM7
+CarbonG ~ Respiration
+Yield ~ CarbonG+Respiration
+
+
+
+
+
+
+

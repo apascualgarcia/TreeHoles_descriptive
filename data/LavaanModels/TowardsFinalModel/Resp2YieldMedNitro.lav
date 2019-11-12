@@ -1,0 +1,12 @@
+Nitrogen =~ mN7
+Respiration =~ mgCO2.7
+Yield =~ CPM7
+Nitrogen ~ Respiration
+Yield ~ Nitrogen+Respiration
+
+
+
+
+
+
+

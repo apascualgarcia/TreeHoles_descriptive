@@ -1,0 +1,12 @@
+CPM7 ~ c(a1,a1,a1,a1,a1,a1)*ATP7+c(b1,b1,b1,b1,b1,b1)*mX7
+mgCO2.7 ~ c(d1,d1,d1,d1,d1,d1)*mG7+c(e1,e1,e1,e1,e1,e1)*mP7+c(f1,f1,f1,f1,f1,f1)*CPM7
+ATP7 ~ c(g1,g1,g1,g1,g1,g1)*mG7+c(h1,h1,h1,h1,h1,h1)*mN7+c(i1,i1,i1,i1,i1,i1)*mP7
+ATP7 ~~ c(j1,j1,j1,j1,j1,j1)*mgCO2.7
+CPM7 ~~ c(k1,k1,k1,k1,k1,k1)*mN7
+mG7 ~~ c(l1,l1,l1,l1,l1,l1)*CPM7
+mG7 ~~ c(m1,m1,m1,m1,m1,m1)*mN7
+mG7 ~~ c(n1,n1,n1,n1,n1,n1)*mP7
+mG7 ~~ c(p1,p1,p1,p1,p1,p1)*mX7
+mN7 ~~ c(q1,q1,q1,q1,q1,q1)*mP7
+mN7 ~~ c(r1,r1,r1,r1,r1,r1)*mX7
+mP7 ~~ c(s1,s1,s1,s1,s1,s1)*mX7

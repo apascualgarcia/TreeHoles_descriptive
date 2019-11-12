@@ -1,0 +1,12 @@
+CarbonX =~ mX7
+Respiration =~ mgCO2.7
+Yield =~ CPM7
+CarbonX ~ Respiration
+Yield ~ CarbonX+Respiration
+
+
+
+
+
+
+

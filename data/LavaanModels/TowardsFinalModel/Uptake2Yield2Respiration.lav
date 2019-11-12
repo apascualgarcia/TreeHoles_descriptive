@@ -1,0 +1,8 @@
+#Latent
+Respiration =~ mgCO2.7
+Yield =~  CPM7+ATP7
+Uptake =~ mG7+mX7+mN7+mP7
+Yield ~ Uptake
+Respiration ~ Yield
+
+

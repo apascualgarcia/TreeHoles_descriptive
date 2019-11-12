@@ -1,0 +1,10 @@
+CPM7~mgCO2.7+mG7+mX7
+mgCO2.7~ATP7+mG7+mP7+mX7
+ATP7~mN7+mP7+mG7
+mN7~~mP7
+mN7~~mG7
+mN7~~mX7
+mP7~~mG7
+mP7~~mX7
+mG7~~mX7
+

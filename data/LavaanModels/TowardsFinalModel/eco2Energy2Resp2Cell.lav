@@ -1,0 +1,10 @@
+Cells =~ CPM7
+Respiration =~ mgCO2.7
+Energy =~ ATP7
+CarbonG =~ mG7
+CarbonX =~ mX7
+Nitrogen =~ mN7
+Phosphate =~ mP7
+Cells ~ Respiration
+Respiration ~ Energy
+Energy ~ CarbonG+CarbonX+Nitrogen+Phosphate

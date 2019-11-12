@@ -1,0 +1,15 @@
+# Hypothesis from net analysis fitting  ATP only with clusters that provided signal from single species analysis and some significant from the saturated model
+             # regressions 
+
+             ATP7 ~ Clus8+Clus12+Clus16
+             
+             # variances and covariances 
+
+             Clus4 ~~ Clus16+Clus35+Clus65
+             Clus8 ~~ Clus12+Clus14+Clus16+Clus29+Clus65
+             Clus12 ~~ Clus65
+             Clus14 ~~ Clus16+Clus35+Clus65
+             Clus16 ~~ Clus35+Clus65
+             Clus29 ~~ Clus65
+             Clus35 ~~ Clus65
+             

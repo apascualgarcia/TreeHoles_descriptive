@@ -1,0 +1,24 @@
+# Hypothesis from net analysis  including remainder species and metacommunity, fitting ATP
+             # regressions 
+
+             ATP7 ~ Metacomm
+             
+             Clus4 ~ Metacomm 
+             Clus8 ~ Metacomm 
+             Clus12 ~ Metacomm 
+             Clus14 ~ Metacomm 
+             Clus16 ~ Metacomm 
+             Clus29 ~ Metacomm 
+             Clus35 ~ Metacomm 
+             Clus65 ~ Metacomm 
+             Clus103 ~ Metacomm 
+
+             # variances and covariances 
+
+             Clus4 ~~ Clus16+Clus35+Clus65
+             Clus8 ~~ Clus12+Clus14+Clus16+Clus65
+             Clus14 ~~ Clus16+Clus35+Clus65
+             Clus16 ~~ Clus35+Clus65
+             Clus29 ~~ Clus65
+             Clus35 ~~ Clus65
+             Clus65 ~~ Clus103

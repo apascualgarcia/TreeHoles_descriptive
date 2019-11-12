@@ -1,0 +1,32 @@
+
+# Saturated model including remainder species, a latent variable and fit with only ATP
+             # regressions
+
+             ATP7 ~ Clus4+Clus8+Clus12+Clus14+Clus16+Clus29+Clus35+Clus65+Clus103
+
+
+
+             # variances and covariances 
+
+             Clus4 ~~ Clus8+Clus12+Clus14+Clus16+Clus29+Clus35+Clus65+Clus103
+             Clus8 ~~ Clus12+Clus14+Clus16+Clus29+Clus35+Clus65+Clus103
+             Clus12 ~~ Clus14+Clus16+Clus29+Clus35+Clus65+Clus103
+             Clus14 ~~ Clus16+Clus29+Clus35+Clus65+Clus103
+             Clus16 ~~ Clus29+Clus35+Clus65+Clus103
+             Clus29 ~~ Clus35+Clus65+Clus103
+             Clus35 ~~ Clus65+Clus103
+             Clus65 ~~ Clus103
+             
+
+             ATP7 ~~ ATP7
+             Clus4 ~~ Clus4
+             Clus8 ~~ Clus8
+             Clus12 ~~ Clus12
+             Clus14 ~~ Clus14
+             Clus16 ~~ Clus16
+             Clus29 ~~ Clus29
+             Clus35 ~~ Clus35
+             Clus65 ~~ Clus65
+             Clus103 ~~ Clus103
+
+

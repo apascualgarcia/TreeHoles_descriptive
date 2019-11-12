@@ -1,0 +1,7 @@
+Cells =~ CPM7
+Respiration =~ mgCO2.7+mG7
+Energy =~ ATP7
+Uptake =~ mX7+mN7+mP7
+Uptake ~ Energy
+Cells ~ Uptake
+Respiration ~ Cells 

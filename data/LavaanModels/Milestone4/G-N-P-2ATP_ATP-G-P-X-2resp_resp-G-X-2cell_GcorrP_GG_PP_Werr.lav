@@ -1,0 +1,13 @@
+CPM7 ~~ 0.60*CPM7
+mgCO2.7 ~~ 0.27*mgCO2.7
+ATP7 ~~ 0.56*ATP7
+mG7 ~~ 0.31*mG7
+mP7 ~~ 0.30*mP7
+mN7 ~~ 0.32*mN7
+mX7 ~~ 0.22*mX7
+CPM7~mgCO2.7+mG7+mX7
+mgCO2.7~ATP7+mG7+mP7+mX7
+ATP7~mN7+mP7+mG7
+mP7 ~~ mG7
+
+

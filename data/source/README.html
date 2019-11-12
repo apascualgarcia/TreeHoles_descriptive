@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>README.html</title>
+
+</head>
+
+<body>
+
+<h1>README</h1>
+
+<p>This file describes the content of the different files including in this repository to 
+reproduce results from [1] and some of its supplementary results.</p>
+
+<h2>Input files</h2>
+
+<ul>
+<li><p>20151016_Functions_remainder.csv</p>
+
+<p>Functions measured in [2]. The relevant quantities used in [1] are labelled with "7", and include:</p>
+
+<ul>
+<li>Community: Id of the sample</li>
+<li>Replicate</li>
+<li>Plate</li>
+<li>mgCO2.7: CO2 measured along 7 days of experiment</li>
+<li>CPM7: Cell counts at the end of the experiment </li>
+<li>pgRPC.7: CO2 per cell</li>
+<li>ATP7: ATP measured (nM)</li>
+<li>mG7: beta glucosidase (mM)</li>
+<li>mN7: beta chitinase (mM)</li>
+<li>mX7: xylosidase (mM)</li>
+<li>mP7: phosphatase (mM)</li>
+</ul></li>
+<li><p>samples_metadata_time0.tsv</p>
+
+<ul>
+<li>Samples: Id of the sample </li>
+<li>Part.dates: Date of sampling</li>
+<li>Part.GPS.PAM: Optimal sampling sites  </li>
+<li>Part.SparCC.PAM.t0: Optimal partition using SparCC </li>
+<li>Part.SJD.PAM.t0: Optimal partition using Jensen-Shannon Divergence</li>
+<li>Part.Dir.t0: Optimal partition using Dirichlet mixtures</li>
+<li>Part.month: Month in which the community was sampled</li>
+</ul></li>
+<li><p>Dist_GPS-Haversine.dat</p>
+
+<p>Haversine (spatial) distances between samples</p></li>
+<li><p>corMat-SparCC_20151016_OTU_remainder.clean.samples.txt</p>
+
+<p>Matrix of correlations between samples computed with SparCC</p></li>
+<li><p>distMat_ShannonJensen_Samples_Time0.clean.dat</p>
+
+<p>Distance matrix computed with Jensen-Shannon divergence.</p></li>
+</ul>
+
+<h2>Supplementary results</h2>
+
+<ul>
+<li><p>SEMmodels.zip</p>
+
+<p>Results for the Structural Equation Models analysed. The structure of the folders follows the one 
+available at the repository of the <a href="https://github.com/apascualgarcia/TreeHoles_descriptive">project </a>.</p></li>
+<li><p>TaxaSummaries.zip</p>
+
+<p>The file contains one folder for each community-class, with matrices in different formats (biom and txt)
+computing the relative abundances of the OTUs at different taxonomic levels (labelled L2 being the proxy for
+Phylum to L6, the proxy of species). These matrices can be visualized interactively opening with a web
+browser the files area_charts.html.</p></li>
+</ul>
+
+<h4>References</h4>
+
+<blockquote>
+  <p>[1] Pascual-García, A., &amp; Bell, T. (2019). Community-level signatures of ecological succession 
+   in natural bacterial communities. bioRxiv, 636233</p>
+
+<p>[2] Rivett, Damian W., and Thomas Bell. Abundance determines the functional role of bacterial 
+    phylotypes in complex communities." Nature microbiology 3.7 (2018): 767.</p>
+</blockquote>
+
+</body>
+</html>

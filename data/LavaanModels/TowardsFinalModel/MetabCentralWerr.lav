@@ -1,0 +1,15 @@
+#Latent
+Metabolism =~  Yield+Respiration+Energy+Acquisition
+Acquisition =~ mG7+mX7+mN7+mP7
+Energy =~ ATP7
+Yield =~ CPM7
+Respiration =~ mgCO2.7
+#Errors
+mgCO2.7 ~~ 0.27*mgCO2.7
+ATP7 ~~ 0.57*ATP7
+CPM7 ~~ 0.6*CPM7
+mG7 ~~ 0.31*mG7
+mX7 ~~ 0.32*mX7
+mN7 ~~ 0.22*mN7
+mP7 ~~ 0.30*mP7
+

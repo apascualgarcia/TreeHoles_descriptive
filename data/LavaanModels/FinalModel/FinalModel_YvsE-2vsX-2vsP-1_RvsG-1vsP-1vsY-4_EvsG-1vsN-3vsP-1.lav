@@ -1,0 +1,11 @@
+Cells =~ CPM7
+Respiration =~ mgCO2.7
+Energy =~ ATP7
+CarbonG =~ mG7
+CarbonX =~ mX7
+Nitrogen =~ mN7
+Phosphate =~ mP7
+Cells ~ c(a1,a1,a1,a2,a2,a3)*Energy+c(b1,b2,b3,b2,b1,b1)*CarbonX+c(c1,c1,c1,c1,c1,c2)*Phosphate
+Respiration ~ c(d1,d1,d1,d2,d1,d1)*CarbonG+c(e1,e1,e1,e2,e2,e2)*Phosphate+c(f2,f4,f1,f1,f3,f5)*Cells
+Energy ~ c(g1,g1,g1,g2,g1,g2)*CarbonG+c(h3,h4,h1,h1,h2,h2)*Nitrogen+c(i1,i1,i1,i2,i1,i2)*Phosphate
+Energy ~~ Respiration

@@ -1,0 +1,9 @@
+# Regression of abiotic variables to CPM7
+             # regressions 
+
+             Northings ~ CPM7
+             Westings ~ CPM7
+             DaySampling ~ CPM7
+             
+ 
+ 

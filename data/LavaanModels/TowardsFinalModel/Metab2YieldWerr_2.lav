@@ -1,0 +1,23 @@
+Metabolism =~ ATP7+mG7+mX7+mN7+mP7
+Yield =~ mgCO2.7+CPM7+mX7+mP7
+Yield ~ Metabolism
+mgCO2.7 ~~ 0.27*mgCO2.7
+ATP7 ~~ 0.57*ATP7
+CPM7 ~~ 0.6*CPM7
+mG7 ~~ 0.31*mG7
+mX7 ~~ 0.32*mX7
+mN7 ~~ 0.22*mN7
+mP7 ~~ 0.30*mP7
+ATP7 ~~ mG7 
+ATP7 ~~ mX7  
+ATP7 ~~ mP7 
+mG7 ~~  mX7 
+mG7 ~~  mN7  
+mG7 ~~  mP7  
+mG7 ~~ mgCO2.7  
+mX7 ~~  mP7  
+mX7 ~~  CPM7  
+mP7 ~~ CPM7  
+mgCO2.7 ~~ CPM7  
+
+
