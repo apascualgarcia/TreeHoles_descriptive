@@ -4,7 +4,8 @@ README
 This repository contains three scripts to reproduce some of the results
 published in the article: 
 
-**Pascual-García, A., & Bell, T. (2019). Community-level signatures of ecological succession in natural bacterial communities. _[bioRxiv](https://www.biorxiv.org/content/10.1101/636233v1)_, 636233**
+**Pascual-García, A., & Bell, T. (2020). Community-level signatures of ecological succession in natural bacterial communities. _Nat Commun_ 11, 2386 (2020). [DOI: 10.1038/s41467-020-16011-3](https://doi.org/10.1038/s41467-020-16011-3)**
+  
 
 ## INPUT DATA ##
 
